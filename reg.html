@@ -1,0 +1,445 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Karmavyaapaar - Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/metisMenu.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- amchart css -->
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- others css -->
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/reg.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
+    
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- login area start -->
+    
+    
+    <div class="main">
+    <!-- Sign up form -->
+    <section class="signup">
+        <div class="container">
+            <div class="signup-content">
+                <h1 class="text-center ">REGISTRATION FORM</h1>
+                <div class="logo text-center">
+                    <a href="index.html"><img src="./logo.png" style="height: auto ; width: 50px;;" alt="logo"></a>
+                </div>
+                <div class="mt-1">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pi-tab" data-toggle="tab" href="#pi" role="tab" aria-controls="pi" aria-selected="true">Personal Information</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="ai-tab" data-toggle="tab" href="#ai" role="tab" aria-controls="ai" aria-selected="false">Address Information</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="qw-tab" data-toggle="tab" href="#qw" role="tab" aria-controls="qw" aria-selected="false">Qualification & Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="du-tab" data-toggle="tab" href="#du" role="tab" aria-controls="du" aria-selected="false">Document Upload</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="pi" role="tabpanel" aria-labelledby="pi-tab">
+                                    <form class="needs-validation" novalidate="" id="form1" >
+                                        
+                                        <div class="form-row">
+                                            <h4  class="header-title"> What are you ? </h4> 
+                                            <select class="form-control form-control-lg mt-2 ">
+                                                <option>Select</option>
+                                                <option>Worker</option>
+                                                <option>Employer</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="example-number-input" class="col-form-label">Adhaar Number</label>
+                                            <input class="form-control" type="number" value="" id="example-number-input" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a Adhaar no.
+                                            </div>
+                                        </div>
+                                        
+                                        <hr>
+                                        <h4  class="header-title">Basic information </h4> 
+                                        <div class="form-row mt-2">
+                                            
+                                            <div class="col-md-4 mb-3">
+                                                <label for="validationCustom01">First name</label>
+                                                <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required="" >
+                                                
+                                                <div class="invalid-feedback">
+                                                    Please provide a First name.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <label for="validationCustom02">Middle name</label>
+                                                <input type="text" class="form-control" id="validationCustom02" placeholder="Middle name" value=""   >
+                                                
+                                            </div>
+                                            <div class="col-md-4 mb-3" >
+                                                <label for="validationCustom02">Last name</label>
+                                                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required=""  >
+                                                
+                                                <div class="invalid-feedback">
+                                                    Please provide a Last name.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <label for="example-tel-input" class="col-form-label">Mobile No</label>
+                                                <input class="form-control" type="tel" value="" id="example-tel-input" required>
+                                                <div class="invalid-feedback">
+                                                    Please provide a mobile no.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <label for="example-tel-input" class="col-form-label">Alternate Mobile No</label>
+                                                <input class="form-control" type="tel" value="" id="example-tel-input" >
+                                            </div>
+                                        </div>
+                                        <label class=" mb-3 mt-3 d-block">Gender:</label>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                                            <label class="form-check-label" for="inlineRadio1">Male</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+                                            <label class="form-check-label" for="inlineRadio2">Female</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" required>
+                                            <label class="form-check-label" for="inlineRadio3">Other</label>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="example-date-input" class="col-form-label">Birthdate</label>
+                                            <input class="form-control" type="date" value="" id="example-date-input" required>
+                                        </div>
+                                          <hr>
+                                          <h4  class="header-title">Make an id</h4>
+                                          <div class="form-group has-primary">
+                                            <label for="inputHorizontalPrimary" class="col-form-label">Email</label>
+                                            <input type="email" class="form-control form-control-primary" id="inputHorizontalPrimary" placeholder="name@example.com" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a Email id.
+                                            </div>
+                                        </div>
+                                          <div class="form-row">    
+                                            <div class="col-md-4 mb-3">
+                                                <label>Password :
+                                                    <input  class="form-control"  placeholder="Password" name="password" id="password" type="password" required onkeyup='check();' />
+                                                  </label>
+                                              </div>
+                                              <div class="col-md-4 mb-3">
+                                                <label>Confirm Password:
+                                                    <input class="form-control" placeholder=" Comfirmed Password" type="password" name="confirm_password" id="confirm_password" required onkeyup='check();' /> 
+                                                    <span id='message'></span>
+                                                  </label>
+                                              </div>
+                                          </div>
+                                          <br>
+                                        <button class="btn btn-primary " type="submit" >Save </button>
+                                        <button class="btn btn-primary ml-3 " type="submit" id="nexttab1"  >Next</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="ai" role="tabpanel" aria-labelledby="ai-tab">
+                                    <form class="needs-validation" novalidate="">
+                                        <h4 class="header-title">Current Address</h4>
+                                        <div class=" form-group">
+                                            <label for="example-text-input-lg" class="col-form-label">Address</label>
+                                            <input class="form-control form-control-lg" type="text" placeholder="" id="example-text-input-lg" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a Address.
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom03">City</label>
+                                                <input type="text" class="form-control" id="validationCustom03" placeholder="City" required="">
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid city.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <label for="validationCustom04">State</label>
+                                                <input type="text" class="form-control" id="validationCustom04" placeholder="State" required="">
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid state.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <label for="validationCustom05">Pincode</label>
+                                                <input type="text" class="form-control" id="validationCustom05" placeholder="Pincode" required="">
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid Pincode.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-check mt-2 mb-3">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                                            <label class="form-check-label" for="invalidCheck">
+                                                Same as above
+                                            </label>
+                                        </div>
+                                        <h4 class="header-title">Permanent Address</h4>
+                                        <div class="form-group">
+                                            <label for="example-text-input-lg" class="col-form-label">Address</label>
+                                            <input class="form-control form-control-lg" type="text" placeholder="" id="example-text-input-lg" required >
+                                            <div class="invalid-feedback">
+                                                Please provide a Address.
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationCustom03">City</label>
+                                                <input type="text" class="form-control" id="validationCustom03" placeholder="City" required="">
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid city.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <label for="validationCustom04">State</label>
+                                                <input type="text" class="form-control" id="validationCustom04" placeholder="State" required="">
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid state.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <label for="validationCustom05">Pincode</label>
+                                                <input type="text" class="form-control" id="validationCustom05" placeholder="Pincode" required="">
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid Pincode.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary " type="submit" >Save </button>
+                                        <button class="btn btn-primary ml-3" type="submit" id="nexttab2">Next</button>
+                                    </form>
+                                   
+                                </div>
+                                <div class="tab-pane fade" id="qw" role="tabpanel" aria-labelledby="qw-tab">
+                                    <form class="needs-validation" novalidate="">
+                                        <h4  class="header-title"> Qualification </h4> 
+                                    <div class="form-row">
+                                      
+                                        <div class="col-md-6 mb-3">
+                                            <label class="col-form-label ">Maximum Qualification</label>
+                                            <select class="form-control form-control-lg">
+                                                <option>Select</option>
+                                                <option>Large select</option>
+                                                <option>Small select</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                                <label for="example-number-input" class="col-form-label">Year of Passing</label>
+                                                <input class="form-control" type="number" value="" id="example-number-input" required>
+                                                <div class="invalid-feedback">
+                                                    Please provide a Year of Passing.
+                                                </div>
+                                        </div>
+                                        <div class="col-md-6 mb-1">
+                                            <label for="example-text-input-sm" class="col-form-label">Institute Name</label>
+                                            <input class="form-control mb-4" type="text" placeholder=""required>
+                                            <div class="invalid-feedback">
+                                                Please provide a Institute Name.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h4  class="header-title"> Work </h4> 
+                                    <div class="form-row">
+                                        <div class="col-md-9 mb-3">
+                                            <label class="col-form-label ">Work domain</label>
+                                            <select class="form-control form-control-lg">
+                                                <option>Select</option>
+                                                <option>Large select</option>
+                                                <option>Small select</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="example-text-input-sm" class="col-form-label">Job Speciality</label>
+                                            <input class="form-control mb-4" type="text" placeholder="" required>
+                                            <div class="invalid-feedback">
+                                                Please provide your Job Speciality.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="example-text-input-sm" class="col-form-label">Other Skills</label>
+                                            <input class="form-control mb-4" type="text" placeholder="" required>
+                                            <div class="invalid-feedback">
+                                                Please provide your Other Skills.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 mb-3">
+                                            <label for="example-text-input" class="col-form-label">Previous work experience </label>
+                                            <input class="form-control" type="text" value="" id="example-text-input" required>
+                                            <div class="invalid-feedback">
+                                                Please share your experience .
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 mb-3">
+                                            <label for="example-text-input-lg" class="col-form-label">Short description Related to your Skill & workfield</label>
+                                            <input class="form-control form-control-lg" type="text" placeholder="" id="example-text-input-lg" >
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary " type="submit" >Save </button>
+                                    <button class="btn btn-primary ml-3 " type="button" id="nexttab3">Next</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="du" role="tabpanel" aria-labelledby="du-tab">
+                                    <h4  class="header-title"> Document needed </h4> 
+                                    <label >Adhaar card</label>
+                                    <form class="needs-validation" novalidate="">
+                                    <div class="input-group mb-3">
+                                        <div class="custom-file">
+                                            <input class="form-control form-control-lg" id="formFileLg" type="file" />
+                                            
+                                        </div>
+                                        <div class="input-group-append">
+                                          <button class="input-group-text btn  btn-md mb-3 btn-success " id="">Upload</button>
+                                        </div>     
+                                      </div>
+                                      <!-- <img id="output" width="100" alt="your image here" /> -->
+                                      <!-- <div class="input-group mb-3">
+                                        <div class="custom-file">
+                                          <input type="file" class="custom-file-input" accept="image/*"  id="file"  onchange="readURL(this);" required>
+                                          <label class="custom-file-label"  for="file" style="cursor: pointer;" >Choose file</label>
+                                        </div>
+                                        <div class="input-group-append">
+                                          <button class="input-group-text " id="">Upload</button>
+                                        </div>  
+                                      </div>
+                                      <img id="blah" src="#" alt="your image"  /> -->
+                                      <!-- <input type='file' />
+<img id="myImg" src="#" alt="your image" /> -->
+
+                                      
+
+
+                                      <div class="form-row">
+                                          <div class="col-md-6 mb-3">
+                                            <label>Passport-Photo</label>   
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input class="form-control form-control-lg" id="formFileLg" type="file" />
+                                                    
+                                                </div>
+                                                <div class="input-group-append">
+                                                  <button class="input-group-text btn  btn-md mb-3 btn-success " id="">Upload</button>
+                                                </div>   
+                                              </div>
+                                          </div>
+                                          <div class="col-md-6 mb-3">
+                                            <label>Signature-Photo</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input class="form-control form-control-lg" id="formFileLg" type="file" />
+                                                    
+                                                </div>
+                                                <div class="input-group-append">
+                                                  <button class="input-group-text btn   btn-md mb-3 btn-success " id="">Upload</button>
+                                                </div>   
+                                              </div>
+                                          </div>
+                                        </div>
+                                          <hr>
+                                          <div class="col-md-6 mb-3">
+                                            <h4 class="header-title">Registration Fees</h4>
+                                            <b class="text-muted mb-3 mt-4 d-block">payment fees - 100₹</b>
+                                          </div>
+                                          <div class="col-md-6 mb-3">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadio1">Debit Card</label>
+                                              </div>
+                                              <div class="custom-control custom-radio">
+                                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadio2">UPI</label>
+                                              </div>
+                                          </div>
+                                          <button type="button" class="btn btn-success btn-md mb-3">Proceed to Pay</button>
+                                            <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                                                <label class="form-check-label" for="invalidCheck">
+                                                    Payment Succesful
+                                                </label>
+                                                <div class="invalid-feedback">
+                                                    You must agree before submitting.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                                                <label class="form-check-label" for="invalidCheck">
+                                                    I Hereby declare that all the Information given by me is correct according to my knowledge.
+                                                </label>
+                                                <div class="invalid-feedback">
+                                                    You must agree before submitting.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <button class="btn btn-primary " type="submit" id="nexttab4">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+               
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+    <!-- login area end -->
+
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="./script/reg.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    
+    <!-- others plugins -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

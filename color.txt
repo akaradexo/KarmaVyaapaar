@@ -1,0 +1,11 @@
+font:  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+linear gradiant: "background-image: linear-gradient(to right, #392c67, #425592, #4d80ba, #60acde, #7fd9ff);"
+
+color:
+red:#ff716b
+blue:#7fd9ff
+green:#45c8c6
+yellow:#ffd564
+purple:#7c5eea

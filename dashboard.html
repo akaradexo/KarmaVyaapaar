@@ -1,0 +1,792 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>KarmVyaapaar-Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/metisMenu.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- amchart css -->
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- others css -->
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/feedback.css">
+    <link rel="stylesheet" href="assets/css/review.css">
+    <link rel="stylesheet" href="assets/css/feed.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- page container area start -->
+    <div class="page-container">
+        <!-- sidebar menu area start -->
+        <div class="sidebar-menu">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a href="index.html"><img src="./logo.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="menu-inner">
+                    <nav>
+                        <ul class="metismenu" id="menu">
+                           
+                           
+                            <li  class="active"><a href="dashboard.html"><i class="fa fa-home"></i> <span>Home</span></a></li>
+                            <li><a href="profile.html"><i class="fa fa-user"></i> <span>Profile</span></a></li>
+                            <li><a href="Explore.html"><i class="fa fa-search"></i> <span>Explore</span></a></li>
+                            <li><a href="forum.html"><i class="fa fa-users"></i> <span>Forum</span></a></li>
+                            <li><a href="chat.html"><i class="fa fa-wechat"></i> <span>Chat</span></a></li>
+                            <li><a href="notify.html"><i class="fa fa-bell"></i> <span>Notification</span></a></li>
+                            <li><a href="history.html"><i class="fa fa-history"></i></i> <span>History</span></a></li>
+                            <li><a href="setting.html"><i class="fa fa-cog"></i><span>Settings</span></a></li>
+                            <li><a href="help.html"><i class="ti-help-alt"></i> <span>Help</span></a></li>
+                            <li><a href="faq.html"><i class="fa fa-question"></i> <span>FAQ</span></a></li>
+                            <li><a href="logout.html"><i class="fa fa-power-off"></i> <span>LogOut</span></a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>  
+            </div>
+        </div>
+        <!-- sidebar menu area end -->
+        <!-- main content area start -->
+        <div class="main-content">
+            <!-- header area start -->
+            <div class="header-area">
+                <div class="row align-items-center">
+                    <!-- nav and search button -->
+                    <div class="col-md-6 col-sm-8 clearfix">
+                        <div class="nav-btn pull-left">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="search-box pull-left">
+                            <form action="#">
+                                <input type="text" name="search" placeholder="Search..." required>
+                                <i class="ti-search"></i>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- profile info & task notification -->
+                    <div class="col-md-6 col-sm-4 clearfix">
+                        <ul class="notification-area pull-right">
+                            <li id="full-view"><i class="ti-fullscreen"></i></li>
+                            <li id="full-view-exit"><i class="ti-zoom-out"></i></li>
+                            <li class="dropdown">
+                                <i class="ti-bell dropdown-toggle" data-toggle="dropdown">
+                                    <span>2</span>
+                                </i>
+                                <div class="dropdown-menu bell-notify-box notify-box">
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <div class="nofity-list">
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
+                                            <div class="notify-text">
+                                                <p>You have Changed Your Password</p>
+                                                <span>Just Now</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div>
+                                            <div class="notify-text">
+                                                <p>New Commetns On Post</p>
+                                                <span>30 Seconds ago</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-key btn-primary"></i></div>
+                                            <div class="notify-text">
+                                                <p>Some special like you</p>
+                                                <span>Just Now</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div>
+                                            <div class="notify-text">
+                                                <p>New Commetns On Post</p>
+                                                <span>30 Seconds ago</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-key btn-primary"></i></div>
+                                            <div class="notify-text">
+                                                <p>Some special like you</p>
+                                                <span>Just Now</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
+                                            <div class="notify-text">
+                                                <p>You have Changed Your Password</p>
+                                                <span>Just Now</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
+                                            <div class="notify-text">
+                                                <p>You have Changed Your Password</p>
+                                                <span>Just Now</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <i class="fa fa-envelope-o dropdown-toggle" data-toggle="dropdown"><span>3</span></i>
+                                <div class="dropdown-menu notify-box nt-enveloper-box">
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <div class="nofity-list">
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img1.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">Hey I am waiting for you...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img2.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">When you can connect with me...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img3.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">I missed you so much...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img4.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">Your product is completely Ready...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img2.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">Hey I am waiting for you...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img1.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">Hey I am waiting for you...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb">
+                                                <img src="assets/images/author/author-img3.jpg" alt="image">
+                                            </div>
+                                            <div class="notify-text">
+                                                <p>Aglae Mayer</p>
+                                                <span class="msg">Hey I am waiting for you...</span>
+                                                <span>3:15 PM</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="settings-btn">
+                                <i class="ti-settings"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header area end -->
+            <!-- page title area start -->
+            <div class="page-title-area p-3">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="breadcrumbs-area clearfix">
+                            <h4 class="page-title pull-left">Dashboard</h4>
+                            <ul class="breadcrumbs pull-left">
+                                <li><a href="dashboard.html">Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- your code start-->
+<br>
+            <div class="col-lg-12 col-xl-12">
+                <div class="card card-white grid-margin">
+                    <div class="card-body">
+                        <div class="post">
+                            <textarea class="form-control" placeholder="Post" rows="4"></textarea>
+                            <div class="post-options">
+                                <a href="#"><i class="fa fa-camera"></i></a>
+                                <a href="#"><i class="fa fa-video-camera"></i></a>
+                                <button class="btn btn-outline-primary float-right">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-timeline">
+                    <ul class="list-unstyled">
+                        <li class="timeline-item">
+                            <div class="card card-white grid-margin">
+                                <div class="card-body">
+                                    <div class="timeline-item-header">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" />
+                                        <p>Vikash smith <span>posted a status</span></p>
+                                        <small>3 hours ago</small>
+                                    </div>
+                                    <div class="timeline-item-post">
+                                        <p>Elavita veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                                        <div class="timeline-options">
+                                            <a href="#"><i class="fa fa-thumbs-up"></i> Like (15)</a>
+                                            <a href="#"><i class="fa fa-comment"></i> Comment (4)</a>
+                                            <a href="#"><i class="fa fa-share"></i> Share (6)</a>
+                                        </div>
+                                        <div class="timeline-comment">
+                                            <div class="timeline-comment-header">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" />
+                                                <p>Jamara Karle <small>1 hour ago</small></p>
+                                            </div>
+                                            <p class="timeline-comment-text">Xullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                        <div class="timeline-comment">
+                                            <div class="timeline-comment-header">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" />
+                                                <p>Lois Anderson <small>3 hours ago</small></p>
+                                            </div>
+                                            <p class="timeline-comment-text">Coluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Replay"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="card card-white grid-margin">
+                                <div class="card-body">
+                                    <div class="timeline-item-header">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" />
+                                        <p>Veema Walkeror <span>uploaded a photo</span></p>
+                                        <small>7 hours ago</small>
+                                    </div>
+                                    <div class="timeline-item-post">
+                                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                                        <img src="img/post-img01.jpg" alt="" />
+                                        <div class="timeline-options">
+                                            <a href="#"><i class="fa fa-thumbs-up"></i> Like (22)</a>
+                                            <a href="#"><i class="fa fa-comment"></i> Comment (7)</a>
+                                            <a href="#"><i class="fa fa-share"></i> Share (9)</a>
+                                        </div>
+                                        <div class="timeline-comment">
+                                            <div class="timeline-comment-header">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" />
+                                                <p>Memila moriya <small>1 hour ago</small></p>
+                                            </div>
+                                            <p class="timeline-comment-text">Explicabo Nemo enim ipsam voluptatem quia voluptas.</p>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Replay"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+           <!-- feebackstart -->
+           <br>
+            <main class="container">
+                <div class="leftSide">
+                    <div class="topSide">
+                        <div class="card text-light bg-purple">
+                            <div class="user">
+                                <div class="user_pic">
+                                    <img src="./Images_/image-daniel.jpg" alt="daniel" class="profile-border-light" />
+                                </div>
+                                <div class="user_info">
+                                    <h3>Daniel Cliffor</h3>
+                                    <p class="text-light-50">Verified Graduate</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h1>
+                                    I received a job offer mid-course, and the subjects I learned were current, if not more
+                                    so, in the company I joined. I honestly feel I got every penny’s worth.
+                                </h1>
+                            </div>
+                            <div class="review">
+                                <p class="text-light-70">
+                                    “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
+                                    transition and have heard some people who had an amazing experience here. I signed up
+                                    for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+                                    The next 12 weeks was the best - and most grueling - time of my life. Since completing
+                                    the course, I’ve successfully switched careers, working as a Software Engineer at a VR
+                                    startup. ”
+                                </p>
+                            </div>
+                            <img src="./Images_/bg-pattern-quotation.svg" alt="quotes" class="quotes-img" />
+                        </div>
+    
+                        <div class="card text-light bg-dark">
+                            <div class="user">
+                                <div class="user_pic">
+                                    <img src="./Images_/image-jonathan.jpg" alt="jonathan" />
+                                </div>
+                                <div class="user_info">
+                                    <h3>Jonathan Walters</h3>
+                                    <p class="text-light-50">Verified Graduate</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h1>The team was very supportive and kept me motivated</h1>
+                            </div>
+                            <div class="review">
+                                <p class="text-light-70">
+                                    “ I started as a total newbie with virtually no coding skills. I now work as a mobile
+                                    engineer for a big company. This was one of the best investments I’ve made in myself. ”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botSide">
+                        <div class="card text-dark">
+                            <div class="user">
+                                <div class="user_pic">
+                                    <img src="./Images_/image-jeanette.jpg" alt="jeanette" />
+                                </div>
+                                <div class="user_info">
+                                    <h3>Jeanette Harmon</h3>
+                                    <p class="text-dark-50">Verified Graduate</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h1>An overall wonderful and rewarding experience</h1>
+                            </div>
+                            <div class="review">
+                                <p class="text-dark-70">
+                                    “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a
+                                    good living while doing something I love. ”
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="card text-light bg-black">
+                            <div class="user">
+                                <div class="user_pic">
+                                    <img src="./Images_/image-patrick.jpg" alt="patrick" class="profile-border" />
+                                </div>
+                                <div class="user_info">
+                                    <h3>Patrick Abrams</h3>
+                                    <p class="text-light-50">Verified Graduate</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h1>
+                                    Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from
+                                    them and learning from their experiences was easy.
+                                </h1>
+                            </div>
+                            <div class="review">
+                                <p class="text-light-70">
+                                    “ The staff seem genuinely concerned about my progress which I find really refreshing.
+                                    The program gave me the confidence necessary to be able to go out in the world and
+                                    present myself as a capable junior developer. The standard is above the rest. You will
+                                    get the personal attention you need from an incredible community of smart and amazing
+                                    people. ”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <div class="card text-dark">
+                        <div class="user">
+                            <div class="user_pic">
+                                <img src="./Images_/image-kira.jpg" alt="kira" />
+                            </div>
+                            <div class="user_info">
+                                <h3>Kira Whittle</h3>
+                                <p class="text-dark-50">Verified Graduate</p>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h1>Such a life-changing experience. Highly recommended!</h1>
+                        </div>
+                        <div class="review">
+                            <p class="text-dark-70">
+                                “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure
+                                from professionals who can help me learn programming step by step. I was encouraged to
+                                enroll by a former student of theirs who can only say wonderful things about the program.
+                                The entire curriculum and staff did not disappoint. They were very hands-on and I never had
+                                to wait long for assistance. The agile team project, in particular, was outstanding. It
+                                took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve
+                                often referred to it during interviews as an example of my developent experience. It
+                                certainly helped me land a job as a full-stack developer after receiving multiple offers.
+                                100% recommend! ”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- feedbackend -->
+<br>
+            <!-- reviewstart -->
+            <div class="container_2">
+                <div class="top">
+                    <div class="topLeft">
+                        <header>10,000+ of our users love our products.</header>
+                        <div>
+                            We only provide great products combined with excellent customer
+                            service. See what our satisfied customers are saying about our
+                            services.
+                        </div>
+                    </div>
+    
+                    <div class="topRight">
+                        <!-- First bar -->
+                        <div class="bar bar__one">
+                            <span class="rating">
+                                <img src="./Images_/icon-star.svg" /><img
+                                    src="./Images_/icon-star.svg"
+                                /><img src="./Images_/icon-star.svg" /><img
+                                    src="./Images_/icon-star.svg"
+                                /><img src="./Images_/icon-star.svg" />
+                            </span>
+                            <span class="review">Rated 5 Stars in Reviews</span>
+                        </div>
+    
+                        <!-- Second bar -->
+                        <div class="bar bar__two">
+                            <span class="rating">
+                                <img src="./Images_/icon-star.svg" /><img
+                                    src="./Images_/icon-star.svg"
+                                /><img src="./Images_/icon-star.svg" /><img
+                                    src="./Images_/icon-star.svg"
+                                /><img src="./Images_/icon-star.svg" />
+                            </span>
+                            <span class="review">Rated 5 Stars in Report Guru</span>
+                        </div>
+    
+                        <!-- Third bar -->
+                        <div class="bar bar__three">
+                            <span class="rating">
+                                <img src="./Images_/icon-star.svg" /><img
+                                    src="./Images_/icon-star.svg"
+                                /><img src="./Images_/icon-star.svg" /><img
+                                    src="./Images_/icon-star.svg"
+                                /><img src="./Images_/icon-star.svg" />
+                            </span>
+                            <span class="review">Rated 5 Stars in BestTech</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bottom">
+                    <!-- First Card -->
+                    <div class="card_2 card__one">
+                        <div class="cardTop">
+                            <img src="./Images_/image-colton.jpg" />
+                            <div class="cardTopRight">
+                                <h4>Colton Smith</h4>
+                                <small>Verified Buyer</small>
+                            </div>
+                        </div>
+    
+                        <p>
+                            "We needed the same printed design as the one we had ordered a week
+                            prior. Not only did they find the original order, but we also
+                            received it in time. Excellent!"
+                        </p>
+                    </div>
+    
+                    <!-- Second Card -->
+                    <div class="card_2 card__two">
+                        <div class="cardTop">
+                            <img src="./Images_/image-irene.jpg" />
+                            <div class="cardTopRight">
+                                <h4>Irene Roberts</h4>
+                                <small>Verified Buyer</small>
+                            </div>
+                        </div>
+                        <p>
+                            "Customer service is always excellent and very quick turn around.
+                            Completely delighted with the simplicity of the purchase and the
+                            speed of delivery."
+                        </p>
+                    </div>
+    
+                    <!-- Third Card -->
+                    <div class="card_2 card__three">
+                        <div class="cardTop">
+                            <img src="./Images_/image-anne.jpg" />
+                            <div class="cardTopRight">
+                                <h4>Anne Wallace</h4>
+                                <small>Verified Buyer</small>
+                            </div>
+                        </div>
+                        <p>
+                            "Put an order with this company and can only praise them for the
+                            very high standard. Will definitely use them again and recommend
+                            them to everyone!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- reviewend -->
+<br>
+<br>
+            <!-- your code end -->
+    <!-- offset area start -->
+    <div class="offset-area">
+        <div class="offset-close"><i class="ti-close"></i></div>
+        <ul class="nav offset-menu-tab">
+            <li><a class="active" data-toggle="tab" href="#activity">Activity</a></li>
+            <li><a data-toggle="tab" href="#settings">Settings</a></li>
+        </ul>
+        <div class="offset-content tab-content">
+            <div id="activity" class="tab-pane fade in show active">
+                <div class="recent-activity">
+                    <div class="timeline-task">
+                        <div class="icon bg1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Added</h4>
+                            <span class="time"><i class="ti-time"></i>7 Minutes Ago</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>You missed you Password!</h4>
+                            <span class="time"><i class="ti-time"></i>09:20 Am</span>
+                        </div>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="fa fa-bomb"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Member waiting for you Attention</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="ti-signal"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>You Added Kaji Patha few minutes ago</h4>
+                            <span class="time"><i class="ti-time"></i>01 minutes ago</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Ratul Hamba sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Hello sir , where are you, i am egerly waiting for you.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="fa fa-bomb"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="ti-signal"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="settings" class="tab-pane fade">
+                <div class="offset-settings">
+                    <h4>General Settings</h4>
+                    <div class="settings-list">
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Notifications</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch1" />
+                                    <label for="switch1">Toggle</label>
+                                </div>
+                            </div>
+                            <p>Keep it 'On' When you want to get all the notification.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Show recent activity</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch2" />
+                                    <label for="switch2">Toggle</label>
+                                </div>
+                            </div>
+                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Show your emails</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch3" />
+                                    <label for="switch3">Toggle</label>
+                                </div>
+                            </div>
+                            <p>Show email so that easily find you.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Show Task statistics</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch4" />
+                                    <label for="switch4">Toggle</label>
+                                </div>
+                            </div>
+                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Notifications</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch5" />
+                                    <label for="switch5">Toggle</label>
+                                </div>
+                            </div>
+                            <p>Use checkboxes when looking for yes or no answers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offset area end -->
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- start chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <!-- start highcharts js -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <!-- start zingchart js -->
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script>
+    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+    </script>
+    <!-- all line chart activation -->
+    <script src="assets/js/line-chart.js"></script>
+    <!-- all pie chart -->
+    <script src="assets/js/pie-chart.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
